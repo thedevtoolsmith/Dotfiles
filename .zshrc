@@ -25,6 +25,11 @@ PYTHON_VENV_NAME=".venv"
 PYTHON_VENV_NAMES=($PYTHON_VENV_NAME venv)
 PYTHON_AUTO_VRUN=true
 
+# Pip specific settings
+export PIP_REQUIRE_VENV=1
+export PIP_VERBOSE=3
+export PIP_DEFAULT_TIMEOUT=30
+
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
