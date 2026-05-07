@@ -1,0 +1,12 @@
+# Load this first for OMZ compatibility helpers.
+getantidote/use-omz
+
+# Optional, but common and recommended.
+ohmyzsh/ohmyzsh path:lib
+
+# Pick OMZ plugins.
+ohmyzsh/ohmyzsh path:plugins/python
+
+# Other Plugins
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-syntax-highlighting
